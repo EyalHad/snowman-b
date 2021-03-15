@@ -2,9 +2,34 @@
 #include <string>
 #include <array>
 using namespace std;
+
+enum {ONE = 1, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN};
+enum {H = 0, N, L, R, X, Y, T, B} ;
+
+const array<string,5> Hat = {"", "     \n _===_", "  ___ \n .....", "   _  \n  /_\\ ","  ___ \n (_*_)"};
+
+const array<string,5> Left = {"", "(.", "(o", "(O", "(-"};
+
+const array<string,5> Nose = {"", ",", ".", "_", " "};
+
+const array<string,5> Right = {"", ".)", "o)", "O)", "-)"};
+
+const array<string,5> XUp = {"", " ", "\\", " ", " "};
+
+const array<string,5> XDown = {"", "<", " ", "/", " "};
+
+const array<string,5> YUp = {"", " ", "/", " ", " "};
+
+const array<string,5> YDown = {"", ">", " ", "\\", " "};
+
+const array<string,5> Torso = {"", "( : )", "(] [)", "(> <)", "(   )"};
+
+const array<string,5> Base = {"", "( : )", "(\" \")", "(___)", "(   )"};
+
 namespace ariel
 {
-  string snowman(int number);  
+  string snowman(int number); 
+
 };
 /*
 
