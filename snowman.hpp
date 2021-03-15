@@ -1,13 +1,11 @@
-#pragma once
+
 #include <string>
 #include <array>
 using namespace std;
 namespace ariel
 {
-  std::string snowman(int number);  
+  string snowman(int number);  
 };
-namespace parts
-{
 /*
 
 Example for a simple Snowman
@@ -42,78 +40,3 @@ LINE\n      Fifth line will be B only
 
 */   
 
-    const array<string,5> H =
-    {
-        " ",
-        "     \n_===_", 
-        " ___ \n.....", 
-        "  _  \n /_\\ ",
-        " ___ \n(_*_)"  
-    };
-
-    const array<string,5> L = 
-    {
-        " ",
-        ".",
-        "o",
-        "0",
-        "-"
-    };
-
-    const array<string,5> N = 
-    {
-        " ",
-        ",",
-        ".",
-        "_",
-        " "
-    };
-
-    const array<string,5> R = 
-    {
-        " ",
-        ".",
-        "o",
-        "0",
-        "-"
-    };
-
-
-
-    const array<string,5> X = 
-    { 
-        " ",
-        "<",
-        "\\",
-        "/",
-        " "
-    };
-
-    const array<string,5> Y = 
-    {
-        " ",
-        ">",
-        "/",
-        "\\",
-        " "
-    };
-
-    const array<string,5> T = 
-    {
-        " ",
-        " : ",
-        "] [",
-        "> <",
-        "   "
-    };
-
-    const array<string,5> B = 
-    {
-        " ",
-        " : ",
-        "\" \"",
-        "___",
-        "   "
-    };
-
-};
