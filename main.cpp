@@ -24,6 +24,7 @@ int main(){
 
     case 'r':    
     case 'R': {
+            //restarting the seed fot a new randomness
             srand(clock());
             array<int,4> arr = {1,2,3,4};  
             int value = 0;
@@ -87,7 +88,7 @@ int main(){
         snow += adder;
         snow *= TEN;
          
-        cout << "Choose Right Hand ->" << endl;
+        cout << "Choose Left Hand ->" << endl;
         for (size_t i = 1; i < 5; i++)
         {
             cout << "Press " << i << " For:    ";
@@ -101,7 +102,7 @@ int main(){
         snow += adder;
         snow *= TEN;
          
-        cout << "Choose Left Hand ->" << endl;
+        cout << "Choose Right Hand ->" << endl;
         for (size_t i = 1; i < 5; i++)
         {
             cout << "Press " << i << " For:    ";
